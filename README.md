@@ -16,4 +16,5 @@ Example of Paynet FPX integration in Django
   PAYNET_ENDPOINT_URL = 'https://api.paynet.my/fpx/payment'
 - Run `python manage.py migrate` within the root project file to create an initial sqlitedb when first working with this project
 - Run `python manage.py createsuperuser --username sample_user --email sample_user@example.com` to create a first user record for the testing in the database (it will prompt you to enter a password of choice for the user)
+- Run `python manage.py runserver` to test the app - the url of the app (payment button page) would be http://127.0.01:8000/payment/
 
