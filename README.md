@@ -8,4 +8,5 @@ Example of Paynet FPX integration in Django
 - Then the company needs to fill up all the company details
 - Within the form, the company needs to submit a public key of its certificate (refer to https://docs.developer.paynet.my/docs/fpx/key-management on how to generate a self-signed certificate with the corresponding private and public keys)
 - From the project, get the appropriate API keys and replace the relevant variables in the Django settings.py file
+- Run `python manage.py migrate` within the root project file to create an initial sqlitedb when first working with this project
 
