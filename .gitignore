@@ -1,0 +1,63 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Environment files
+.env
+
+# Django specific
+db.sqlite3
+/media/
+/staticfiles/
+
+# Logs
+*.log
+*.pot
+*.pid
+*.py[co]
+
+# Virtual environment
+venv/
+.env/
+
+# IDE Specific
+.idea/
+.vscode/
+*.swp
+*~
+
+# Static files collected by Django’s collectstatic command
+/static/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Test coverage files
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+.pytest_cache/
+
+# Documentation
+docs/_build/
+*.rst
+
+# Sphinx documentation
+build/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Local testing files
+*.local
