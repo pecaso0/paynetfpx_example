@@ -9,5 +9,5 @@ Example of Paynet FPX integration in Django
 - Within the form, the company needs to submit a public key of its certificate (refer to https://docs.developer.paynet.my/docs/fpx/key-management on how to generate a self-signed certificate with the corresponding private and public keys)
 - From the project, get the appropriate API keys and replace the relevant variables in the Django settings.py file
 - Run `python manage.py migrate` within the root project file to create an initial sqlitedb when first working with this project
-- Run `python manage.py createsuperuser --username sample_user --email sample_user@example.com` to create a first user record for the testing in the database
+- Run `python manage.py createsuperuser --username sample_user --email sample_user@example.com` to create a first user record for the testing in the database (it will prompt you to enter a password of choice for the user)
 
